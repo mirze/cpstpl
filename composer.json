@@ -1,0 +1,11 @@
+{
+    "name": "yin32167/composer-tpl",
+    "description":  "My composer project template",
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    }
+}
