@@ -1,11 +1,34 @@
 {
     "name": "yin32167/composer-tpl",
     "description":  "My composer project template",
+    "keywords": ["yin32167"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magina Yin",
+            "email": "yin32167@aliyun.com",
+            "homepage": "https://github.com/yin32167",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "monolog/monolog": "1.0.*",
-        "php": ">=7.0"
+        "php": ">=7.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "classmap": [
+           
+        ],
+        "psr-4": {
+            "Yin32167\\HelloWorld\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yin32167\\HelloWorld\\Tests\\": "tests/"
+        }
     }
 }
