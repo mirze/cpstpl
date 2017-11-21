@@ -1,6 +1,6 @@
 {
-    "name": "yin32167/composer-tpl",
-    "description":  "My composer project template",
+    "name": "yin32167/cpstpl",
+    "description":  "My template of composer project!",
     "keywords": ["yin32167"],
     "license": "MIT",
     "authors": [
@@ -23,12 +23,12 @@
            
         ],
         "psr-4": {
-            "Yin32167\\HelloWorld\\": "src/"
+            "Yin32167\\CpsTpl\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yin32167\\HelloWorld\\Tests\\": "tests/"
+            "Yin32167\\CpsTpl\\Tests\\": "tests/"
         }
     }
 }
