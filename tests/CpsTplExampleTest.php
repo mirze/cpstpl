@@ -10,7 +10,7 @@ use Yin32167\CpsTpl\CpsTplExample;
 final class CpsTplExampleTest extends TestCase 
 {
 
-    public function testCannotBeShow(): void
+    public function testCannotBeShow()
     {
         $cpstpl_example = new CpsTplExample;
         
